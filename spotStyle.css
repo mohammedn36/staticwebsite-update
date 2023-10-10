@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.spot-item {
+    background-color: #f0f0f0;
+    /* light grey background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.spot-item h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+    /* dark text */
+}
+
+.spot-item img {
+    width: 100%;
+    /* make image fill the container */
+    border-radius: 10px;
+    /* optional: rounded corners */
+    margin-bottom: 10px;
+    /* space between image and text */
+}
+
+.spot-item p {
+    margin: 0;
+    color: #333;
+    /* dark text */
+}
+
+/* Optional: Hover effect for the whole spot item */
+.spot-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+}
